@@ -10,14 +10,15 @@ namespace UnitTest
         int[] a = { 11, 5, 17, 3, 1, 16, 12, 18, 7, 8, 20, 13, 10, 20, 9, 1, 2, 19, 4, 14, 10, 6, 5, 15, 8, 16 };
 
         [TestMethod]
-        public void TestInsertionSort()
+        public void TestSeletorSort()
         {
-            TestResult(InsertionSort.Sort(a));
+            TestResult(SelectorSort.Sort(a));
         }
 
         [TestMethod]
-        public void TestSeletorSort() {
-            TestResult(SelectorSort.Sort(a));
+        public void TestInsertionSort()
+        {
+            TestResult(InsertionSort.Sort(a));
         }
 
         [TestMethod]
