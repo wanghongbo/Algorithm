@@ -12,22 +12,22 @@ namespace UnitTest
         [TestMethod]
         public void TestSeletorSort()
         {
-            TestResult(SelectorSort.Sort(a));
+            CheckResult(SelectorSort.Sort(a));
         }
 
         [TestMethod]
         public void TestInsertionSort()
         {
-            TestResult(InsertionSort.Sort(a));
+            CheckResult(InsertionSort.Sort(a));
         }
 
         [TestMethod]
         public void TestShellSort()
         {
-            TestResult(ShellSort.Sort(a));
+            CheckResult(ShellSort.Sort(a));
         }
 
-        private void TestResult(int[] a)
+        private void CheckResult(int[] a)
         {
             for (int i = 0; i < a.Length - 1; i++)
             {
