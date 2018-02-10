@@ -1,0 +1,5 @@
+F:\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+F:\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+F:\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+F:\Algorithm\Algorithm\obj\Debug\Algorithm.exe
+F:\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
