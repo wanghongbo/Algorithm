@@ -29,7 +29,7 @@ namespace Algorithm
                     while (k - h >= 0 && temp < a[k - h])
                     {
                         a[k] = a[k - h];
-                        k = k - h;
+                        k -= h;
                     }
                     if (k != i + j * h)
                     {
@@ -51,7 +51,7 @@ namespace Algorithm
                 while (j - h >= 0 && temp < a[j - h])
                 {
                     a[j] = a[j - h];
-                    j = j - h;
+                    j -= h;
                 }
                 if (j != i)
                 {
