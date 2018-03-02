@@ -40,12 +40,12 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void TestHeapSort()
+        public void TestMergeSort()
         {
-            CheckResult(HeapSort.Sort(a));
-            CheckResult(HeapSort.Sort(b));
-            CheckResult(HeapSort.Sort(c));
-            CheckResult(HeapSort.Sort(d));
+            CheckResult(MergeSort.Sort(a));
+            CheckResult(MergeSort.Sort(b));
+            CheckResult(MergeSort.Sort(c));
+            CheckResult(MergeSort.Sort(d));
         }
 
         private void CheckResult(int[] a)

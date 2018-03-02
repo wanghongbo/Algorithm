@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="排序\堆排序.cs" />
+    <Compile Include="排序\归并排序.cs" />
     <Compile Include="排序\选择排序.cs" />
     <Compile Include="排序\插入排序.cs" />
     <Compile Include="Program.cs" />
