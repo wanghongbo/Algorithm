@@ -48,6 +48,15 @@ namespace UnitTest
             CheckResult(MergeSort.Sort(d));
         }
 
+        [TestMethod]
+        public void TestQuickSort()
+        {
+            CheckResult(QuickSort.Sort(a));
+            CheckResult(QuickSort.Sort(b));
+            CheckResult(QuickSort.Sort(c));
+            CheckResult(QuickSort.Sort(d));
+        }
+
         private void CheckResult(int[] a)
         {
             for (int i = 0; i < a.Length - 1; i++)

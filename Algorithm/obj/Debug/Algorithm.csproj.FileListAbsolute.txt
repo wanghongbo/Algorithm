@@ -10,3 +10,9 @@ E:\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
 E:\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
 E:\Algorithm\Algorithm\bin\Debug\Algorithm.exe
 E:\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+E:\Code\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+E:\Code\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+E:\Code\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+E:\Code\Algorithm\Algorithm\obj\Debug\Algorithm.csprojResolveAssemblyReference.cache
+E:\Code\Algorithm\Algorithm\obj\Debug\Algorithm.exe
+E:\Code\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
