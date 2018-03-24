@@ -18,7 +18,6 @@ namespace Algorithm {
                 if (j != i) {
                     a[j] = temp;
                 }
-
             }
 
             return a;

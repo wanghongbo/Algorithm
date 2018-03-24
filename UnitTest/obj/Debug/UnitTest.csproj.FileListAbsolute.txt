@@ -52,3 +52,5 @@ E:\Code\Algorithm\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFra
 E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
 E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.dll
 E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.pdb
+E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete

@@ -14,9 +14,6 @@ namespace Algorithm {
             for (int i = 0; i < r.Length; i++) {
                 Console.Out.WriteLine(r[i]);
             }
-
         }
-
-
     }
 }

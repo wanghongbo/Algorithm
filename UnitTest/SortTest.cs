@@ -5,57 +5,51 @@ using Algorithm;
 namespace UnitTest {
     [TestClass]
     public class SortTest {
-        int[] a = { 11, 5, 17, 3, 1, 16, 12, 18, 7, 8, 20, 13, 10, 20, 9, 1, 2, 19, 4, 14, 10, 6, 5, 15, 8, 16 };
-        int[] b = { 3, 11, 5, 17, 3, 1, 16, 12, 18, 7, 8, 20, 13, 10, 20, 9, 6, 1, 2, 19, 4, 14, 10, 6, 5, 15, 8, 16, 14 };
-        int[] c = { 1 };
-        int[] d = { };
+        private delegate int[] Sort(int[] a);
+        private void CheckResult(int[][] array, Sort sort) {
+            foreach (int[] a in array) {
+                sort(a);
+                for (int i = 0; i < a.Length - 1; i++) {
+                    if (a[i] > a[i + 1]) {
+                        Assert.Fail();
+                        Console.Write(a[i]);
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+
+        int[][] a = new int[][] {
+            new int[]  { 11, 5, 17, 3, 1, 16, 12, 18, 7, 8, 20, 13, 10, 20, 9, 1, 2, 19, 4, 14, 10, 6, 5, 15, 8, 16 },
+            new int[] { 3, 11, 5, 17, 3, 1, 16, 12, 18, 7, 8, 20, 13, 10, 20, 9, 6, 1, 2, 19, 4, 14, 10, 6, 5, 15, 8, 16, 14 },
+            new int[] { 1 },
+            new int[] { },
+            new int[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 }
+        };
 
         [TestMethod]
         public void TestSeletorSort() {
-            CheckResult(SelectorSort.Sort(a));
-            CheckResult(SelectorSort.Sort(b));
-            CheckResult(SelectorSort.Sort(c));
-            CheckResult(SelectorSort.Sort(d));
+            CheckResult(a, SelectorSort.Sort);
         }
 
         [TestMethod]
         public void TestInsertionSort() {
-            CheckResult(InsertionSort.Sort(a));
-            CheckResult(InsertionSort.Sort(b));
-            CheckResult(InsertionSort.Sort(c));
-            CheckResult(InsertionSort.Sort(d));
+            CheckResult(a, InsertionSort.Sort);
         }
 
         [TestMethod]
         public void TestShellSort() {
-            CheckResult(ShellSort.Sort(a));
-            CheckResult(ShellSort.Sort(b));
-            CheckResult(ShellSort.Sort(c));
-            CheckResult(ShellSort.Sort(d));
+            CheckResult(a, ShellSort.Sort);
         }
 
         [TestMethod]
         public void TestMergeSort() {
-            CheckResult(MergeSort.Sort(a));
-            CheckResult(MergeSort.Sort(b));
-            CheckResult(MergeSort.Sort(c));
-            CheckResult(MergeSort.Sort(d));
+            CheckResult(a, MergeSort.Sort);
         }
 
         [TestMethod]
         public void TestQuickSort() {
-            CheckResult(QuickSort.Sort(a));
-            CheckResult(QuickSort.Sort(b));
-            CheckResult(QuickSort.Sort(c));
-            CheckResult(QuickSort.Sort(d));
-        }
-
-        private void CheckResult(int[] a) {
-            for (int i = 0; i < a.Length - 1; i++) {
-                if (a[i] > a[i + 1]) {
-                    Assert.Fail();
-                }
-            }
+            CheckResult(a, QuickSort.Sort);
         }
     }
 }
