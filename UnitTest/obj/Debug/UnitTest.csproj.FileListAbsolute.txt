@@ -50,7 +50,7 @@ E:\Code\Algorithm\UnitTest\bin\Debug\Algorithm.exe.config
 E:\Code\Algorithm\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\Code\Algorithm\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
-E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.dll
-E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.pdb
 E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
 E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.dll
+E:\Code\Algorithm\UnitTest\obj\Debug\UnitTest.pdb

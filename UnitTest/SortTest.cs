@@ -22,9 +22,9 @@ namespace UnitTest {
         int[][] a = new int[][] {
             new int[]  { 11, 5, 17, 3, 1, 16, 12, 18, 7, 8, 20, 13, 10, 20, 9, 1, 2, 19, 4, 14, 10, 6, 5, 15, 8, 16 },
             new int[] { 3, 11, 5, 17, 3, 1, 16, 12, 18, 7, 8, 20, 13, 10, 20, 9, 6, 1, 2, 19, 4, 14, 10, 6, 5, 15, 8, 16, 14 },
+            new int[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 },
             new int[] { 1 },
-            new int[] { },
-            new int[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 }
+            new int[] { }
         };
 
         [TestMethod]
@@ -50,6 +50,11 @@ namespace UnitTest {
         [TestMethod]
         public void TestQuickSort() {
             CheckResult(a, QuickSort.Sort);
+        }
+
+        [TestMethod]
+        public void TestHeapSort() {
+            CheckResult(a, HeapSort.Sort);
         }
     }
 }

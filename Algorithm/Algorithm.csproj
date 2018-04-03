@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="优先队列\优先队列.cs" />
+    <Compile Include="优先队列\索引优先队列.cs" />
+    <Compile Include="排序\堆排序.cs" />
     <Compile Include="排序\归并排序.cs" />
     <Compile Include="排序\快速排序.cs" />
     <Compile Include="排序\选择排序.cs" />
