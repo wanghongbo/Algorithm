@@ -48,9 +48,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SortTest.cs" />
+    <Compile Include="排序.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PQTest.cs" />
+    <Compile Include="优先队列.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
