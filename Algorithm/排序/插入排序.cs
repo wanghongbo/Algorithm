@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace Algorithm {
     public class InsertionSort {
         static public int[] Sort(int[] a) {
-
             for (int i = 0; i < a.Length; i++) {
                 int temp = a[i];
                 int j = i;
