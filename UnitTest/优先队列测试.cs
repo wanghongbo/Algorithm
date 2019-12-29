@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Algorithm;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Algorithm;
 
 namespace UnitTest {
     [TestClass]
-    public class PQTest {
+    public class PQTester {
 
         int[] a = { 5, 2, 1, 3, 8, 10, 4, 6, 7, 9 };
 

@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTest {
     [TestClass]
-    public class StringSortTest {
+    public class StringSortTester {
 
         [TestMethod]
         public void TestKeyIndexedCountingSort() {

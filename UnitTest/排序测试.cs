@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Algorithm;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Algorithm;
+using System;
 
 namespace UnitTest {
     [TestClass]
-    public class SortTest {
+    public class SortTester {
         private delegate int[] Sort(int[] a);
         private void CheckResult(int[][] array, Sort sort) {
             foreach (int[] a in array) {
