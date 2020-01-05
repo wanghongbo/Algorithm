@@ -1,7 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Algorithm;
+﻿using Algorithm;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTest {
+namespace UnitTest.LeetCode测试 {
 	
 	[TestClass]
     public class TwoSumTester {
