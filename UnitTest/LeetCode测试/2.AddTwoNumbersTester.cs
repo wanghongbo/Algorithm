@@ -20,7 +20,7 @@ namespace UnitTest.LeetCode测试 {
             n2.next = n3;
 
             ListNode r = AddTwoNumbsers.Perform(l1, n1);
-            int[] result = new int[] { 7, 0, 8 };
+            int[] result = { 7, 0, 8 };
             int i = 0;
             while (r != null && i < result.Length) {
                 Assert.AreEqual(r.val, result[i]);
@@ -44,7 +44,7 @@ namespace UnitTest.LeetCode测试 {
             n2.next = n3;
 
             ListNode r = AddTwoNumbsers.Perform(l1, n1);
-            int[] result = new int[] { 7, 0, 0, 1 };
+            int[] result = { 7, 0, 0, 1 };
             int i = 0;
             while (r != null && i < result.Length) {
                 Assert.AreEqual(r.val, result[i]);
@@ -72,7 +72,7 @@ namespace UnitTest.LeetCode测试 {
             n2.next = n3;
 
             ListNode r = AddTwoNumbsers.Perform(l1, n1);
-            int[] result = new int[] { 7, 0, 0, 7, 3 };
+            int[] result = { 7, 0, 0, 7, 3 };
             int i = 0;
             while (r != null && i < result.Length) {
                 Assert.AreEqual(r.val, result[i]);
@@ -100,7 +100,7 @@ namespace UnitTest.LeetCode测试 {
             l4.next = l5;
             
             ListNode r = AddTwoNumbsers.Perform(n1, l1);
-            int[] result = new int[] { 7, 0, 0, 7, 3 };
+            int[] result = { 7, 0, 0, 7, 3 };
             int i = 0;
             while (r != null && i < result.Length) {
                 Assert.AreEqual(r.val, result[i]);

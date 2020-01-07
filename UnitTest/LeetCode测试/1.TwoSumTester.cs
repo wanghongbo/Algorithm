@@ -8,7 +8,7 @@ namespace UnitTest.LeetCode测试 {
 
         [TestMethod]
         public void TestCase() {
-            int[] nums = new int[] { 2, 7, 11, 15 };
+            int[] nums = { 2, 7, 11, 15 };
             int target = 9;
             int[] result = TwoSum.Perform(nums, target);
             Assert.AreEqual(result[0], 0);
