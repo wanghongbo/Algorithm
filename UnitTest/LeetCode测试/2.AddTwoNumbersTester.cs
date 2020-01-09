@@ -1,4 +1,4 @@
-﻿using Algorithm;
+﻿using Algorithm.LeetCode;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTest.LeetCode测试 {

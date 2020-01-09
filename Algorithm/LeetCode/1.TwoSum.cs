@@ -13,7 +13,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 */
 
-namespace Algorithm {
+namespace Algorithm.LeetCode {
     public class TwoSum {
         public static int[] Perform(int[] nums, int target) {
             Dictionary<int, int> dic = new Dictionary<int, int>();

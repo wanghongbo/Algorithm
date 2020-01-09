@@ -11,7 +11,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 */
 
-namespace Algorithm {
+namespace Algorithm.LeetCode {
     public class AddTwoNumbsers {
         public static ListNode Perform(ListNode l1, ListNode l2) {
             ListNode head = l1, pre = l1;
