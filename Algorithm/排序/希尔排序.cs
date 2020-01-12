@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm {
+﻿
+namespace Algorithm.排序 {
     public class ShellSort {
         static public int[] Sort(int[] a) {
             for (int h = a.Length / 2; h > 0; h = h / 2) {

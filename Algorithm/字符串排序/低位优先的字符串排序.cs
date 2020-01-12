@@ -1,5 +1,5 @@
 ﻿
-namespace Algorithm {
+namespace Algorithm.字符串排序 {
     public class LSD {
         /// <summary>
         /// 低位优先的字符串排序，适用于字符串长度相等的字符串排序

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithm {
+namespace Algorithm.优先队列 {
     public class MaxPQ {
         private int[] pq;
         private int N = 0;

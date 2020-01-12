@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm {
+﻿
+namespace Algorithm.排序 {
     public class QuickSort {
         static public int[] Sort(int[] a) {
             //Sort(a, 0, a.Length - 1);

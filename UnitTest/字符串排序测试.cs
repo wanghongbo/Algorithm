@@ -1,7 +1,7 @@
-﻿using Algorithm;
+﻿using Algorithm.字符串排序;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTest {
+namespace UnitTest.字符串排序 {
     [TestClass]
     public class StringSortTester {
 

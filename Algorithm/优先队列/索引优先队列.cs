@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithm {
+namespace Algorithm.优先队列 {
     public class IndexMinPQ {
         private int N;  //PQ中的元素数量
         private int[] pq;   //索引二叉堆，由1开始

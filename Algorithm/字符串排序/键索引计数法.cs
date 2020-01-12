@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algorithm {
+namespace Algorithm.字符串排序 {
     public class KeyIndexedCountingSort {
         /// <summary>
         /// 键索引计数法排序

@@ -1,8 +1,8 @@
-﻿using Algorithm;
+﻿using Algorithm.排序;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace UnitTest {
+namespace UnitTest.排序 {
     [TestClass]
     public class SortTester {
         private delegate int[] Sort(int[] a);

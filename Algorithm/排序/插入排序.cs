@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm {
+﻿
+namespace Algorithm.排序 {
     public class InsertionSort {
         static public int[] Sort(int[] a) {
             for (int i = 0; i < a.Length; i++) {
