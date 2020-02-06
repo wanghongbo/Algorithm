@@ -8,7 +8,8 @@ namespace UnitTest.LeetCode测试 {
 
         [TestMethod]
         public void TestCase() {
-
+            int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+            Assert.AreEqual(ContainerWithMostWater.Perform(height), 49);
         }
     }
 }
