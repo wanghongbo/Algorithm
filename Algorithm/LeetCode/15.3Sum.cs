@@ -29,30 +29,31 @@ namespace Algorithm.LeetCode {
                 if (nums[k] > 0) {
                     break;
                 }
+                if (k > 0 && nums[k] == nums[k - 1]) {
+                    continue;
+                }
                 int i = k + 1;
                 int j = n - 1;
                 while (i < j) {
+                    if (i > k + 1 && nums[i] == nums[i - 1]) {
+                        i++;
+                        continue;
+                    }
+                    if (j < n - 1 && nums[j] == nums[j + 1]) {
+                        j--;
+                        continue;
+                    }
                     if (nums[k] + nums[i] + nums[j] < 0) {
                         i++;
                     } else if (nums[k] + nums[i] + nums[j] > 0) {
                         j--;
                     } else {
-                        bool exist = false;
-                        for (int t = 0; t < lists.Count; t++) {
-                            IList<int> list = lists[t];
-                            if (list[0] == nums[k] && list[1] == nums[i] && list[2] == nums[j]) {
-                                exist = true;
-                                break;
-                            }
-                        }
-                        if (!exist) {
-                            List<int> list = new List<int>() {
-                                    nums[k],
-                                    nums[i],
-                                    nums[j],
-                                };
-                            lists.Add(list);
-                        }
+                        List<int> list = new List<int>() {
+                            nums[k],
+                            nums[i],
+                            nums[j],
+                        };
+                        lists.Add(list);
                         i++;
                         j--;
                     }
