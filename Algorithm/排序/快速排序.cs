@@ -78,7 +78,7 @@ namespace Algorithm.排序 {
                     }
                 }
                 while (a[--k] > x) {
-                    if (i == left) {
+                    if (k == left) {
                         break;
                     }
                 }
