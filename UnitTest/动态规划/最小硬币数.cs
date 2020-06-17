@@ -1,7 +1,7 @@
 ﻿using Algorithm.动态规划;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTest.动态规划 {
+namespace UnitTests.动态规划 {
 
     [TestClass]
     public class MinCountOfCoinsTester {

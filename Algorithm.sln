@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{E825747C-78BA-42D8-9427-E31D9D192605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{81CCB9A5-A7CD-4F62-A86F-F98485E87279}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTest\UnitTests.csproj", "{81CCB9A5-A7CD-4F62-A86F-F98485E87279}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

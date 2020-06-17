@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace UnitTest.排序 {
+namespace UnitTests.排序 {
     [TestClass]
     public class SortTester {
         private delegate int[] Sort(int[] a);

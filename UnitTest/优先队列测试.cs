@@ -1,7 +1,7 @@
 ﻿using Algorithm.优先队列;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTest.优先队列 {
+namespace UnitTests.优先队列 {
     [TestClass]
     public class PQTester {
 

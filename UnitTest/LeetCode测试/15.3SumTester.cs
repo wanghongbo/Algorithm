@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
-namespace UnitTest.LeetCode测试 {
+namespace UnitTests.LeetCode测试 {
 
     [TestClass]
     public class ThreeSumTester {

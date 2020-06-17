@@ -10,4 +10,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="从后往前遍历\" />
+  </ItemGroup>
 </Project>
