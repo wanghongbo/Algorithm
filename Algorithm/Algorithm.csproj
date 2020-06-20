@@ -7,10 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <Compile Remove="剑指Offer\17.打印1到最大的n位数.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="从后往前遍历\" />
+    <None Include="剑指Offer\17.打印1到最大的n位数.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
   </ItemGroup>
 </Project>
