@@ -2,6 +2,7 @@
 namespace Algorithm.剑指Offer {
     public class Print1ToMaxOfNDigital {
 		
+        // 方法1
         public static void Perform(int n) {
             char[] str = new char[n];
             for (int i = 0; i < str.Length; i++) {
