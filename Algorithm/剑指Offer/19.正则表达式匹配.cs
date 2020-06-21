@@ -1,12 +1,6 @@
 ﻿
-namespace Algorithm {
-    class Program {
-        static void Main(string[] args) {
-            string str = "a";
-            string pattern = ".*";
-            bool result = Perform(str, pattern);
-            System.Console.WriteLine(result);
-        }
+namespace Algorithm.剑指Offer {
+    public static class PatternMatch {
 
         public static bool Perform(string str, string pattern) {
             return Mach(str, 0, pattern, 0);
