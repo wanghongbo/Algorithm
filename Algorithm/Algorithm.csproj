@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <Compile Remove="剑指Offer\17.打印1到最大的n位数.cs" />
+    <Compile Remove="剑指Offer\29.顺时针打印矩阵.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="剑指Offer\17.打印1到最大的n位数.cs" />
+    <None Include="剑指Offer\29.顺时针打印矩阵.cs" />
   </ItemGroup>
 
   <ItemGroup>
