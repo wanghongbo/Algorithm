@@ -1,22 +1,88 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A166110-0A42-49D5-917F-538FAAF0243C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-    <StartupObject>Algorithm.Program</StartupObject>
+    <RootNamespace>Algorithm</RootNamespace>
+    <AssemblyName>Algorithm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
-
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="剑指Offer\17.打印1到最大的n位数.cs" />
-    <Compile Remove="剑指Offer\29.顺时针打印矩阵.cs" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
-
   <ItemGroup>
-    <None Include="剑指Offer\17.打印1到最大的n位数.cs" />
-    <None Include="剑指Offer\29.顺时针打印矩阵.cs" />
+    <Compile Include="LeetCode\1.TwoSum.cs" />
+    <Compile Include="LeetCode\10.RegularExpressionMatching.cs" />
+    <Compile Include="LeetCode\11.ContainerWithMostWater.cs" />
+    <Compile Include="LeetCode\15.3Sum.cs" />
+    <Compile Include="LeetCode\2.AddTwoNumbers.cs" />
+    <Compile Include="LeetCode\3.LongestSubstring.cs" />
+    <Compile Include="LeetCode\4.FindMedianSortedArrays.cs" />
+    <Compile Include="LeetCode\5.LongestPalindrome.cs" />
+    <Compile Include="LeetCode\7.ReverseInteger.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="优先队列\优先队列.cs" />
+    <Compile Include="优先队列\索引优先队列.cs" />
+    <Compile Include="剑指Offer\14.剪绳子.cs" />
+    <Compile Include="剑指Offer\16.数值的整数次方.cs" />
+    <Compile Include="剑指Offer\17.打印1到最大的n位数.cs" />
+    <Compile Include="剑指Offer\19.正则表达式匹配.cs" />
+    <Compile Include="剑指Offer\2.3.2 合并有序数组.cs" />
+    <Compile Include="剑指Offer\2.4.5 26进制.cs" />
+    <Compile Include="剑指Offer\29.顺时针打印矩阵.cs" />
+    <Compile Include="剑指Offer\36.二叉搜索数与双向链表.cs" />
+    <Compile Include="剑指Offer\38.字符串的排列.cs" />
+    <Compile Include="剑指Offer\4.4 8皇后排列.cs" />
+    <Compile Include="剑指Offer\4.4 字符的所有组合.cs" />
+    <Compile Include="剑指Offer\45.把数字翻译成字符串.cs" />
+    <Compile Include="剑指Offer\48.最长不含重复字符的子字符串.cs" />
+    <Compile Include="剑指Offer\56.数组中只出现一次的两个数字.cs" />
+    <Compile Include="剑指Offer\60.n个骰子的点数.cs" />
+    <Compile Include="动态规划\最少硬币数.cs" />
+    <Compile Include="字符串排序\低位优先的字符串排序.cs" />
+    <Compile Include="字符串排序\键索引计数法.cs" />
+    <Compile Include="排序\堆排序.cs" />
+    <Compile Include="排序\希尔排序.cs" />
+    <Compile Include="排序\归并排序.cs" />
+    <Compile Include="排序\快速排序.cs" />
+    <Compile Include="排序\插入排序.cs" />
+    <Compile Include="排序\选择排序.cs" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <None Include="App.config" />
   </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
